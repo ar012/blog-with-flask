@@ -1,0 +1,36 @@
+python -m virtualenv --version
+virtualenv --version
+python -m pip install virtualenv
+python -m virtualenv venv
+source venv/bin/activate
+pip install flask
+
+
+pip install flask-wtf
+
+
+
+source /home/abdurrazzak/anaconda3/bin/activate
+conda activate base
+conda deactivate
+
+
+source venv/bin/activat     on windows: venv\Scripts\activate 
+python app.py 
+
+
+python microblog.py 
+
+
+pip install flask-sqlalchemy
+
+pip install flask-migrate
+
+
+flask db init
+
+flask db migrate -m "user table"
+
+flask db upgrade
+
+flask db downgrade
